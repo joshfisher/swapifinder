@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03928C5A2087E59400563069 /* PersonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03928C592087E59400563069 /* PersonStore.swift */; };
+		03928C5C2088C2BF00563069 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03928C5B2088C2BF00563069 /* PeopleViewModel.swift */; };
+		03928C5E208A7F1100563069 /* FindPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03928C5D208A7F1100563069 /* FindPersonViewController.swift */; };
+		03AC6D5020841803004FA9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6D4F20841803004FA9C6 /* AppDelegate.swift */; };
+		03AC6D5220841803004FA9C6 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6D5120841803004FA9C6 /* PeopleViewController.swift */; };
+		03AC6D5720841805004FA9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AC6D5620841805004FA9C6 /* Assets.xcassets */; };
+		03AC6D5A20841805004FA9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AC6D5820841805004FA9C6 /* LaunchScreen.storyboard */; };
+		03AC6D6520841805004FA9C6 /* SwapiFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6D6420841805004FA9C6 /* SwapiFinderTests.swift */; };
+		03AC6D7220841E91004FA9C6 /* SWAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6D7120841E91004FA9C6 /* SWAPI.swift */; };
+		03AC6DB1208685C9004FA9C6 /* UIAlertAction+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6DB0208685C9004FA9C6 /* UIAlertAction+Common.swift */; };
+		03AC6DB3208685E2004FA9C6 /* UITableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6DB2208685E2004FA9C6 /* UITableViewCell+Identifier.swift */; };
+		03AC6DB5208685F9004FA9C6 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC6DB4208685F9004FA9C6 /* LoadingCell.swift */; };
+		03FBEA402090E4F700748506 /* LikesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBEA3F2090E4F700748506 /* LikesStore.swift */; };
+		132D77FB2C88F535FBB0ADE1 /* Pods_SwapiFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAEFE69B7C0C3B2AA00A6A0 /* Pods_SwapiFinder.framework */; };
+		62CBC095F58EAD56020302A0 /* Pods_SwapiFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A187609D050C92B263BC00 /* Pods_SwapiFinderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AC6D6120841805004FA9C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AC6D4420841803004FA9C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AC6D4B20841803004FA9C6;
+			remoteInfo = Animations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03928C592087E59400563069 /* PersonStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonStore.swift; sourceTree = "<group>"; };
+		03928C5B2088C2BF00563069 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		03928C5D208A7F1100563069 /* FindPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPersonViewController.swift; sourceTree = "<group>"; };
+		03AC6D4C20841803004FA9C6 /* SwapiFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwapiFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AC6D4F20841803004FA9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03AC6D5120841803004FA9C6 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		03AC6D5620841805004FA9C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AC6D5920841805004FA9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AC6D5B20841805004FA9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AC6D6020841805004FA9C6 /* SwapiFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapiFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AC6D6420841805004FA9C6 /* SwapiFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiFinderTests.swift; sourceTree = "<group>"; };
+		03AC6D6620841805004FA9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AC6D7120841E91004FA9C6 /* SWAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAPI.swift; sourceTree = "<group>"; };
+		03AC6D74208424E6004FA9C6 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = ../Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		03AC6D76208424EA004FA9C6 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = ../Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		03AC6D78208424F1004FA9C6 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		03AC6DB0208685C9004FA9C6 /* UIAlertAction+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertAction+Common.swift"; sourceTree = "<group>"; };
+		03AC6DB2208685E2004FA9C6 /* UITableViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Identifier.swift"; sourceTree = "<group>"; };
+		03AC6DB4208685F9004FA9C6 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		03FBEA3F2090E4F700748506 /* LikesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesStore.swift; sourceTree = "<group>"; };
+		09701FF1DDA98ED57313E6A6 /* Pods-SwapiFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwapiFinder.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SwapiFinder/Pods-SwapiFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		6362CAFF439F20CB53EA27E0 /* Pods-SwapiFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwapiFinder.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SwapiFinder/Pods-SwapiFinder.release.xcconfig"; sourceTree = "<group>"; };
+		74A187609D050C92B263BC00 /* Pods_SwapiFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwapiFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D21BA8035384F598235CD4 /* Pods-SwapiFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwapiFinderTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SwapiFinderTests/Pods-SwapiFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAEFE69B7C0C3B2AA00A6A0 /* Pods_SwapiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwapiFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF14FA130F14B70893ADAB83 /* Pods-SwapiFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwapiFinderTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SwapiFinderTests/Pods-SwapiFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AC6D4920841803004FA9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132D77FB2C88F535FBB0ADE1 /* Pods_SwapiFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AC6D5D20841805004FA9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CBC095F58EAD56020302A0 /* Pods_SwapiFinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AC6D4320841803004FA9C6 = {
+			isa = PBXGroup;
+			children = (
+				03AC6D4E20841803004FA9C6 /* SwapiFinder */,
+				03AC6D6320841805004FA9C6 /* SwapiFinderTests */,
+				03AC6D4D20841803004FA9C6 /* Products */,
+				03AC6D73208424E6004FA9C6 /* Frameworks */,
+				33A81ED3AB709D1F40960168 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		03AC6D4D20841803004FA9C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AC6D4C20841803004FA9C6 /* SwapiFinder.app */,
+				03AC6D6020841805004FA9C6 /* SwapiFinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AC6D4E20841803004FA9C6 /* SwapiFinder */ = {
+			isa = PBXGroup;
+			children = (
+				03AC6D4F20841803004FA9C6 /* AppDelegate.swift */,
+				03AC6D7120841E91004FA9C6 /* SWAPI.swift */,
+				03928C592087E59400563069 /* PersonStore.swift */,
+				03FBEA3F2090E4F700748506 /* LikesStore.swift */,
+				03928C5B2088C2BF00563069 /* PeopleViewModel.swift */,
+				03AC6D5120841803004FA9C6 /* PeopleViewController.swift */,
+				03928C5D208A7F1100563069 /* FindPersonViewController.swift */,
+				03AC6DB4208685F9004FA9C6 /* LoadingCell.swift */,
+				03AC6DB2208685E2004FA9C6 /* UITableViewCell+Identifier.swift */,
+				03AC6DB0208685C9004FA9C6 /* UIAlertAction+Common.swift */,
+				03AC6D5620841805004FA9C6 /* Assets.xcassets */,
+				03AC6D5820841805004FA9C6 /* LaunchScreen.storyboard */,
+				03AC6D5B20841805004FA9C6 /* Info.plist */,
+			);
+			path = SwapiFinder;
+			sourceTree = "<group>";
+		};
+		03AC6D6320841805004FA9C6 /* SwapiFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AC6D6420841805004FA9C6 /* SwapiFinderTests.swift */,
+				03AC6D6620841805004FA9C6 /* Info.plist */,
+			);
+			path = SwapiFinderTests;
+			sourceTree = "<group>";
+		};
+		03AC6D73208424E6004FA9C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03AC6D78208424F1004FA9C6 /* Result.framework */,
+				03AC6D76208424EA004FA9C6 /* ReactiveCocoa.framework */,
+				03AC6D74208424E6004FA9C6 /* ReactiveSwift.framework */,
+				EBAEFE69B7C0C3B2AA00A6A0 /* Pods_SwapiFinder.framework */,
+				74A187609D050C92B263BC00 /* Pods_SwapiFinderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33A81ED3AB709D1F40960168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09701FF1DDA98ED57313E6A6 /* Pods-SwapiFinder.debug.xcconfig */,
+				6362CAFF439F20CB53EA27E0 /* Pods-SwapiFinder.release.xcconfig */,
+				E2D21BA8035384F598235CD4 /* Pods-SwapiFinderTests.debug.xcconfig */,
+				EF14FA130F14B70893ADAB83 /* Pods-SwapiFinderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AC6D4B20841803004FA9C6 /* SwapiFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AC6D6920841805004FA9C6 /* Build configuration list for PBXNativeTarget "SwapiFinder" */;
+			buildPhases = (
+				E389FC220B25E64B449F7D24 /* [CP] Check Pods Manifest.lock */,
+				03AC6D4820841803004FA9C6 /* Sources */,
+				03AC6D4920841803004FA9C6 /* Frameworks */,
+				03AC6D4A20841803004FA9C6 /* Resources */,
+				EF23C31676D63142F6935A8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwapiFinder;
+			productName = Animations;
+			productReference = 03AC6D4C20841803004FA9C6 /* SwapiFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AC6D5F20841805004FA9C6 /* SwapiFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AC6D6C20841805004FA9C6 /* Build configuration list for PBXNativeTarget "SwapiFinderTests" */;
+			buildPhases = (
+				4B4F359C30621770A93E08B0 /* [CP] Check Pods Manifest.lock */,
+				03AC6D5C20841805004FA9C6 /* Sources */,
+				03AC6D5D20841805004FA9C6 /* Frameworks */,
+				03AC6D5E20841805004FA9C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AC6D6220841805004FA9C6 /* PBXTargetDependency */,
+			);
+			name = SwapiFinderTests;
+			productName = AnimationsTests;
+			productReference = 03AC6D6020841805004FA9C6 /* SwapiFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AC6D4420841803004FA9C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Joshua Fisher";
+				TargetAttributes = {
+					03AC6D4B20841803004FA9C6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					03AC6D5F20841805004FA9C6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 03AC6D4B20841803004FA9C6;
+					};
+				};
+			};
+			buildConfigurationList = 03AC6D4720841803004FA9C6 /* Build configuration list for PBXProject "SwapiFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AC6D4320841803004FA9C6;
+			productRefGroup = 03AC6D4D20841803004FA9C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AC6D4B20841803004FA9C6 /* SwapiFinder */,
+				03AC6D5F20841805004FA9C6 /* SwapiFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AC6D4A20841803004FA9C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AC6D5A20841805004FA9C6 /* LaunchScreen.storyboard in Resources */,
+				03AC6D5720841805004FA9C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AC6D5E20841805004FA9C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B4F359C30621770A93E08B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwapiFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E389FC220B25E64B449F7D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwapiFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF23C31676D63142F6935A8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-SwapiFinder/Pods-SwapiFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Dwifft/Dwifft.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dwifft.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SwapiFinder/Pods-SwapiFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AC6D4820841803004FA9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03928C5E208A7F1100563069 /* FindPersonViewController.swift in Sources */,
+				03928C5A2087E59400563069 /* PersonStore.swift in Sources */,
+				03928C5C2088C2BF00563069 /* PeopleViewModel.swift in Sources */,
+				03AC6D5220841803004FA9C6 /* PeopleViewController.swift in Sources */,
+				03FBEA402090E4F700748506 /* LikesStore.swift in Sources */,
+				03AC6DB1208685C9004FA9C6 /* UIAlertAction+Common.swift in Sources */,
+				03AC6DB3208685E2004FA9C6 /* UITableViewCell+Identifier.swift in Sources */,
+				03AC6D7220841E91004FA9C6 /* SWAPI.swift in Sources */,
+				03AC6DB5208685F9004FA9C6 /* LoadingCell.swift in Sources */,
+				03AC6D5020841803004FA9C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AC6D5C20841805004FA9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AC6D6520841805004FA9C6 /* SwapiFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AC6D6220841805004FA9C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AC6D4B20841803004FA9C6 /* SwapiFinder */;
+			targetProxy = 03AC6D6120841805004FA9C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AC6D5820841805004FA9C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AC6D5920841805004FA9C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AC6D6720841805004FA9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03AC6D6820841805004FA9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AC6D6A20841805004FA9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09701FF1DDA98ED57313E6A6 /* Pods-SwapiFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBLU4BU9C7;
+				INFOPLIST_FILE = "$(SRCROOT)/SwapiFinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.standardpractice.SwapiFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AC6D6B20841805004FA9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6362CAFF439F20CB53EA27E0 /* Pods-SwapiFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBLU4BU9C7;
+				INFOPLIST_FILE = "$(SRCROOT)/SwapiFinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.standardpractice.SwapiFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03AC6D6D20841805004FA9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D21BA8035384F598235CD4 /* Pods-SwapiFinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBLU4BU9C7;
+				INFOPLIST_FILE = SwapiFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.standardpractice.SwapiFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwapiFinder.app/SwapiFinder";
+			};
+			name = Debug;
+		};
+		03AC6D6E20841805004FA9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF14FA130F14B70893ADAB83 /* Pods-SwapiFinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBLU4BU9C7;
+				INFOPLIST_FILE = SwapiFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.standardpractice.SwapiFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwapiFinder.app/SwapiFinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AC6D4720841803004FA9C6 /* Build configuration list for PBXProject "SwapiFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AC6D6720841805004FA9C6 /* Debug */,
+				03AC6D6820841805004FA9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AC6D6920841805004FA9C6 /* Build configuration list for PBXNativeTarget "SwapiFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AC6D6A20841805004FA9C6 /* Debug */,
+				03AC6D6B20841805004FA9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AC6D6C20841805004FA9C6 /* Build configuration list for PBXNativeTarget "SwapiFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AC6D6D20841805004FA9C6 /* Debug */,
+				03AC6D6E20841805004FA9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AC6D4420841803004FA9C6 /* Project object */;
+}

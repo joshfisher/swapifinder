@@ -1,0 +1,51 @@
+PODS:
+  - Dwifft (0.8)
+  - ReactiveCocoa (7.2.0):
+    - ReactiveSwift (~> 3.1)
+  - ReactiveSwift (3.1.0):
+    - Result (~> 3.2)
+  - Result (3.2.4)
+  - Yoga (1.7.0)
+  - YogaKit (1.7.0):
+    - Yoga (~> 1.7)
+
+DEPENDENCIES:
+  - Dwifft
+  - ReactiveCocoa (~> 7.0)
+  - Yoga (from `https://github.com/facebook/yoga`, tag `1.7.0`)
+  - YogaKit (from `https://github.com/facebook/yoga`, tag `1.7.0`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Dwifft
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Result
+
+EXTERNAL SOURCES:
+  Yoga:
+    :git: https://github.com/facebook/yoga
+    :tag: 1.7.0
+  YogaKit:
+    :git: https://github.com/facebook/yoga
+    :tag: 1.7.0
+
+CHECKOUT OPTIONS:
+  Yoga:
+    :git: https://github.com/facebook/yoga
+    :tag: 1.7.0
+  YogaKit:
+    :git: https://github.com/facebook/yoga
+    :tag: 1.7.0
+
+SPEC CHECKSUMS:
+  Dwifft: 463e61d07322fdf83b32ee6975ca1b20708db746
+  ReactiveCocoa: 476dae7ca790f40d30d186a1bd7ebae4290395d5
+  ReactiveSwift: 5b26d2e988fe0eed2daf48c4054d1de74db50184
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  Yoga: 983d0c15b9676d5beeea25103fd5673fd481b123
+  YogaKit: 3e547ded4f2cdcd353163f239b548d1ca2ad0c4a
+
+PODFILE CHECKSUM: 8a8c316b0396039b5119c0adf77bcf1ae62309aa
+
+COCOAPODS: 1.5.3
